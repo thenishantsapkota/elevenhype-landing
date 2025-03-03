@@ -15,7 +15,9 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <Routes>
+      <Routes
+      
+      >
         <Route path="/" element={<Home />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
