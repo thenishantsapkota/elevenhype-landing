@@ -15,7 +15,7 @@ export const Navbar = () => {
 
   return (
     <nav
-      className="flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-inter"
+      className="sticky top-0 z-50 flex justify-between items-center h-16 bg-white text-black shadow-sm font-inter"
       role="navigation"
     >
       <div className="flex justify-between w-full px-4 md:px-20 items-center">
