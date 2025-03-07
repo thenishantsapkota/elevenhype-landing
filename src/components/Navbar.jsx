@@ -7,13 +7,19 @@ export const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleLinkClick = (e, target) => {
+    e.preventDefault();
+    document.querySelector(target).scrollIntoView({ behavior: 'smooth' });
+    setIsOpen(false);
+  };
+
   return (
     <nav
       className="flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-inter"
       role="navigation"
     >
       <div className="flex justify-between w-full px-4 md:px-20 items-center">
-        <a href="#home">
+        <a href="#home" onClick={(e) => handleLinkClick(e, '#home')}>
           <img src="/assets/icons/logo.png" alt="Logo" className="h-8" />
         </a>
         <div className="md:hidden" onClick={toggleMenu}>
@@ -38,42 +44,49 @@ export const Navbar = () => {
           <a
             href="#home"
             className="p-4 hover:text-[#C7952C] transition duration-300"
+            onClick={(e) => handleLinkClick(e, '#home')}
           >
             Home
           </a>
           <a
             href="#features"
             className="p-4 hover:text-[#C7952C] transition duration-300"
+            onClick={(e) => handleLinkClick(e, '#features')}
           >
             Features
           </a>
           <a
             href="#gallery"
             className="p-4 hover:text-[#C7952C] transition duration-300"
+            onClick={(e) => handleLinkClick(e, '#gallery')}
           >
             Gallery
           </a>
           <a
             href="#core-values"
             className="p-4 hover:text-[#C7952C] transition duration-300"
+            onClick={(e) => handleLinkClick(e, '#core-values')}
           >
             Our Core Values
           </a>
           <a
             href="#why-choose"
             className="p-4 hover:text-[#C7952C] transition duration-300"
+            onClick={(e) => handleLinkClick(e, '#why-choose')}
           >
             Why Choose 11Hype
           </a>
           <a
             href="#how-it-works"
             className="p-4 hover:text-[#C7952C] transition duration-300"
+            onClick={(e) => handleLinkClick(e, '#how-it-works')}
           >
             How it Works
           </a>
           <a
             href="#contacts"
             className="p-4 hover:text-[#C7952C] transition duration-300"
+            onClick={(e) => handleLinkClick(e, '#contacts')}
           >
             Contacts
           </a>

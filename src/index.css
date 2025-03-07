@@ -3,6 +3,7 @@
 body {
   font-family: 'Inter', sans-serif;
   transition: opacity 0.5s ease-in-out;
+  scroll-behavior: smooth; /* Add smooth scrolling */
 }
 
 @import "tailwindcss";
