@@ -1,33 +1,8 @@
 import React, { useState } from "react";
-
-const images = [
-  {
-    src: "/assets/images/closer_look_1.png",
-    text: "Comprehensive scheduling for matches, practices and events. Easily manage recurring practice sessions and game schedules",
-  },
-  {
-    src: "/assets/images/closer_look_2.png",
-    text: "Track facility usage and availability. Assign and manage facility access for teams, coaches, and staff. Simplify maintenance requests with integrated issue",
-  },
-  {
-    src: "/assets/images/closer_look_3.png",
-    text: "Team/player communication with built-in translations. Instant group messaging with read receipts for better accountability. Share training schedules, match updates, and announcements in one place.",
-  },
-  {
-    src: "/assets/images/closer_look_4.png",
-    text: "Social media tools for sharing highlights and connecting.",
-  },
-  {
-    src: "/assets/images/closer_look_5.png",
-    text: "Robust marketplace for Training, Equipment and Services. Upcoming branded marketplace stores for clubs (coming soon).",
-  },
-  {
-    src: "/assets/images/closer_look_6.png",
-    text: "It is thoughtfully designed as a centralized hub for football enthusiasts, integrating the best aspects of advanced technology into a single, cohesive platform.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const CloserLook = () => {
+  const { t } = useTranslation();
   const [previewImage, setPreviewImage] = useState(null);
 
   const openPreview = (image) => {
@@ -38,6 +13,33 @@ export const CloserLook = () => {
     setPreviewImage(null);
   };
 
+  const images = [
+    {
+      src: "/assets/images/closer_look_1.png",
+      text: t("closer_look.one.text"),
+    },
+    {
+      src: "/assets/images/closer_look_2.png",
+      text: t("closer_look.two.text"),
+    },
+    {
+      src: "/assets/images/closer_look_3.png",
+      text: t("closer_look.three.text"),
+    },
+    {
+      src: "/assets/images/closer_look_4.png",
+      text: t("closer_look.four.text"),
+    },
+    {
+      src: "/assets/images/closer_look_5.png",
+      text: t("closer_look.five.text"),
+    },
+    {
+      src: "/assets/images/closer_look_6.png",
+      text: t("closer_look.six.text"),
+    },
+  ];
+
   return (
     <section
       className="min-h-[120vh] bg-[#F6F6F6] flex items-center mt-4 md:mt-0"
@@ -45,11 +47,10 @@ export const CloserLook = () => {
     >
       <div className="container mx-auto px-8">
         <h2 className="text-4xl font-extrabold text-center mb-4 text-[#C7952C]">
-          A CLOSER LOOK AT 11 HYPE IN ACTION
+          {t("closer_look.title")}
         </h2>
         <p className="text-lg text-center mb-12 text-[#595959]">
-          Explore the powerful tools designed to streamline your club
-          management, scouting, and monetization.
+          {t("closer_look.subtitle")}
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
           {images.map((image, index) => (

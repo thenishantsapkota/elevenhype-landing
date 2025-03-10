@@ -1,32 +1,5 @@
 import React from "react";
-
-const coreValues = [
-  {
-    title: "Empowering Football Communities",
-    description:
-      "We are dedicated to helping clubs, coaches, scouts, and players thrive by providing tools that streamline management and enhance collaboration.",
-  },
-  {
-    title: "Innovation at Our Core",
-    description:
-      "We leverage cutting-edge technology, including AI and analytics, to revolutionize the way football clubs operate and grow.",
-  },
-  {
-    title: "Connection & Growth",
-    description:
-      "Our platform bridges gaps, connecting clubs, scouts, players, and agents globally to strengthen collaboration and grow the football community.",
-  },
-  {
-    title: "Transparency & Integrity",
-    description:
-      "We value honesty and transparency, ensuring clubs and players have access to clear data, fair opportunities, and reliable tools.",
-  },
-  {
-    title: "Supporting Club Growth",
-    description:
-      "Through our integrated marketplace and sponsorship hub, we help clubs unlock new revenue streams and grow sustainably.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const breakDescription = (description) => {
   const words = description.split(" ");
@@ -38,6 +11,26 @@ const breakDescription = (description) => {
 };
 
 export const CoreValues = () => {
+  const { t } = useTranslation();
+
+  const coreValues = [
+    {
+      title: t("core_values.one.title"),
+      description: t("core_values.one.description"),
+    },
+    {
+      title: t("core_values.two.title"),
+      description: t("core_values.two.description"),
+    },
+    {
+      title: t("core_values.three.title"),
+      description: t("core_values.three.description"),
+    },
+    {
+      title: t("core_values.four.title"),
+      description: t("core_values.four.description"),
+    },
+  ];
   return (
     <section
       className="py-16 bg-white"
@@ -49,10 +42,10 @@ export const CoreValues = () => {
     >
       <div className="container mx-auto px-8">
         <div className="flex justify-center mb-8">
-          <img src="/assets/icons/line.svg" alt="Line"/>
+          <img src="/assets/icons/line.svg" alt="Line" />
         </div>
         <h2 className="text-4xl font-extrabold text-center mb-12 text-[#C7952C]">
-          Our Core Values
+          {t("core_values.title")}
         </h2>
         <div className="flex flex-col space-y-18 items-center">
           {coreValues.map((value, index) => (
@@ -60,7 +53,9 @@ export const CoreValues = () => {
               <h3 className="text-2xl font-semibold text-black text-center">
                 {value.title}
               </h3>
-              <p className="text-gray-700 whitespace-pre-line text-center">{breakDescription(value.description)}</p>
+              <p className="text-gray-700 whitespace-pre-line text-center">
+                {breakDescription(value.description)}
+              </p>
             </div>
           ))}
         </div>

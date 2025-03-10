@@ -1,0 +1,174 @@
+{
+  "navbar": {
+    "home": "Home",
+    "features": "Features",
+    "gallery": "Gallery",
+    "core_values": "Our Core Values",
+    "why_choose": "Why Choose 11Hype",
+    "how_it_works": "How it Works",
+    "contacts": "Contacts",
+    "join_now": "Join Now",
+    "login": "Login"
+  },
+  "hero": {
+    "hero_one": {
+      "title": "Transforming Football Clubs",
+      "subtitle": "With AI-Powered Insights",
+      "description": "Elevate your club's performance with cutting-edge tools for scouting, scheduling, and management."
+    },
+    "hero_two": {
+      "title": "Elevate your Game, Empower Your Club",
+      "subtitle": "From Scouting to Sponsorship",
+      "description": "From scouting to sponsorships - unlock the full potential of your football club with cutting-edge analytics and seamless management tools."
+    },
+    "hero_three": {
+      "title": "The Future of Football Starts Here",
+      "subtitle": "Intelligent scouting, performance analytics, and real-time communication",
+      "description": "11 Hype helps clubs and agencies discover top talent, analyze team performance, and stay connected with players, fans, and sponsors. Say goodbye to outdated management and hello to innovation."
+    },
+    "watch_demo_video": "Watch Demo Video"
+  },
+  "features": {
+    "title": "FEATURES",
+    "one": {
+      "title": "Scheduling & Realtime Messaging",
+      "description": "Coordinate practices, matches, and events with seamless communication tools that keep your entire club connected."
+    },
+    "two": {
+      "title": "AI-Scouting & Recruitment Tools",
+      "description": "Identify rising stars and top talents using advanced performance analytics and data-driven insights."
+    },
+    "three": {
+      "title": "Club & Facility Management",
+      "description": "Manage teams, rosters, and facility bookings with intuitive scheduling tools designed for clubs of all sizes."
+    },
+    "four": {
+      "title": "Marketplace & Sponsorship Hub",
+      "description": "Monetize your club with branded merchandise, sponsorship opportunities, and a powerful marketplace."
+    },
+    "five": {
+      "title": "Performance Analytics",
+      "description": "Dive deep into player and team stats with easy-to-understand performance tracking and analysis."
+    },
+    "six": {
+      "title": "Integrated Communication",
+      "description": "Chat, share files, collaborate in real-time — all within the platform."
+    }
+  },
+  "closer_look": {
+    "title": "A CLOSER LOOK AT 11HYPE IN ACTION",
+    "subtitle": "Explore the powerful tools designed to streamline your club management, scouting, and monetization.",
+    "one": {
+      "text": "Comprehensive scheduling for matches, practices and events. Easily manage recurring practice sessions and game schedules"
+    },
+    "two": {
+      "text": "Track facility usage and availability. Assign and manage facility access for teams, coaches, and staff. Simplify maintenance requests with integrated issue"
+    },
+    "three": {
+      "text": "Team/player communication with built-in translations. Instant group messaging with read receipts for better accountability. Share training schedules, match updates, and announcements in one place."
+    },
+    "four": {
+      "text": "Social media tools for sharing highlights and connecting."
+    },
+    "five": {
+      "text": "Robust marketplace for Training, Equipment and Services. Upcoming branded marketplace stores for clubs (coming soon)."
+    },
+    "six": {
+      "text": "It is thoughtfully designed as a centralized hub for football enthusiasts, integrating the best aspects of advanced technology into a single, cohesive platform."
+    }
+  },
+  "core_values": {
+    "title": "OUR CORE VALUES",
+    "one": {
+      "title": "Empowering Football Communities",
+      "description": "We are dedicated to helping clubs, coaches, scouts, and players thrive by providing tools that streamline management and enhance collaboration."
+    },
+    "two": {
+      "title": "Innovation at Our Core",
+      "description": "We leverage cutting-edge technology, including AI and analytics, to revolutionize the way football clubs operate and grow."
+    },
+    "three": {
+      "title": "Connection & Growth",
+      "description": "Our platform bridges gaps, connecting clubs, scouts, players, and agents globally to strengthen collaboration and grow the football community."
+    },
+    "four": {
+      "title": "Transparency & Integrity",
+      "description": "We value honesty and transparency, ensuring clubs and players have access to clear data, fair opportunities, and reliable tools."
+    },
+    "five": {
+      "title": "Supporting Club Growth",
+      "description": "Through our integrated marketplace and sponsorship hub, we help clubs unlock new revenue streams and grow sustainably."
+    }
+  },
+  "why_choose": {
+    "title": "WHY CHOOSE 11HYPE",
+    "description": "See how 11 Hype stacks up against traditional tools and competitors — all-in-one management, AI scouting and monetization in one platform.",
+    "features": "Features",
+    "11hype": "11Hype",
+    "benefits": "Benefits",
+    "one": {
+      "name": "All-in-one Club Management",
+      "description": "Full suite for clubs and agencies",
+      "benefit": "Simplify club operations in one centralized platform."
+    },
+    "two": {
+      "name": "AI-Powered Scouting and Recruitment",
+      "description": "Advanced AI scouting tools",
+      "benefit": "Discover talent faster with data-driven insights."
+    },
+    "three": {
+      "name": "Real-Time Scheduling and Messaging",
+      "description": "Integrated communications tools",
+      "benefit": "Coordinate matches, training, and communication easily."
+    },
+    "four": {
+      "name": "Marketplace and Sponsorship",
+      "description": "Monetization tolls for clubs",
+      "benefit": "Unlock new revenue streams through sponsorships."
+    },
+    "five": {
+      "name": "Performance Analysis",
+      "description": "In-depth player and team analytics",
+      "benefit": "Track player and team performance with precision."
+    },
+    "six": {
+      "name": "Integrated Communication Tools",
+      "description": "Built-on messaging and chats",
+      "benefit": "Keep players, coaches, and staff connected in real-time."
+    },
+    "seven": {
+      "name": "Revenue Generation Tools",
+      "description": "Sponsorship and merch sales",
+      "benefit": "Boost club income with branded merch and sponsors"
+    },
+    "eight": {
+      "name": "Multi-Device Compatibility",
+      "description": "Web, iOS and Android",
+      "benefit": "Access anytime, anywhere, on any device."
+    },
+    "nine": {
+      "name": "Target Audience",
+      "description": "Clubs, Scouts, Players, Coaches, Agents and Agencies",
+      "benefit": "Tailored for the entire football ecosystem."
+    }
+  },
+  "how_it_works": {
+    "title": "HOW IT WORKS",
+    "one": {
+      "title": "Signup and Set up Club",
+      "content": "Create your club profile and invite your team members. Customize your club settings, rosters, and communication tools."
+    },
+    "two": {
+      "title": "Manage Teams & Facilities",
+      "content": "Schedule matches, practices, and events with ease. Oversee facility bookings, ensuring smooth club operations."
+    },
+    "three": {
+      "title": "Scout & Track Players with AI",
+      "content": "Discover top talent using AI-driven performance tracking. View real-time player statistics and recruitment insights."
+    },
+    "four": {
+      "title": "Monetize through Marketplace",
+      "content": "Sell branded club merchandise and secure sponsorships. Boost club revenue with built-in monetization tools."
+    }
+  }
+}

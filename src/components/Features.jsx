@@ -1,45 +1,40 @@
 import React from "react";
-
-const features = [
-  {
-    icon: "/assets/icons/calendar.png",
-    title: "Scheduling & Realtime Messaging",
-    description:
-      "Coordinate practices, matches, and events with seamless communication tools that keep your entire club connected.",
-  },
-  {
-    icon: "/assets/icons/ai.png",
-    title: "AI-Scouting & Recruitment Tools",
-    description:
-      "Identify rising stars and top talents using advanced performance analytics and data-driven insights.",
-  },
-  {
-    icon: "/assets/icons/facility.png",
-    title: "Club & Facility Management",
-    description:
-      "Manage teams, rosters, and facility bookings with intuitive scheduling tools designed for clubs of all sizes.",
-  },
-  {
-    icon: "/assets/icons/coin.png",
-    title: "Marketplace & Sponsorship Hub",
-    description:
-      "Monetize your club with branded merchandise, sponsorship opportunities, and a powerful marketplace.",
-  },
-  {
-    icon: "/assets/icons/analytics.png",
-    title: "Performance Analytics",
-    description:
-      "Dive deep into player and team stats with easy-to-understand performance tracking and analysis.",
-  },
-  {
-    icon: "/assets/icons/messaging.png",
-    title: "Integrated Communication",
-    description:
-      "Chat, share files, collaborate in real-time — all within the platform.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const Features = () => {
+  const { t } = useTranslation();
+  const features = [
+    {
+      icon: "/assets/icons/calendar.png",
+      title: t("features.one.title"),
+      description: t("features.one.description"),
+    },
+    {
+      icon: "/assets/icons/ai.png",
+      title: t("features.two.title"),
+      description: t("features.two.description"),
+    },
+    {
+      icon: "/assets/icons/facility.png",
+      title: t("features.three.title"),
+      description: t("features.three.description"),
+    },
+    {
+      icon: "/assets/icons/coin.png",
+      title: t("features.four.title"),
+      description: t("features.four.description"),
+    },
+    {
+      icon: "/assets/icons/analytics.png",
+      title: t("features.five.title"),
+      description: t("features.five.description"),
+    },
+    {
+      icon: "/assets/icons/messaging.png",
+      title: t("features.six.title"),
+      description: t("features.six.description"),
+    },
+  ];
   return (
     <section
       className="min-h-screen bg-white flex items-center"
@@ -50,7 +45,9 @@ export const Features = () => {
       }}
     >
       <div className="container mx-auto px-8 py-16">
-        <h2 className="text-4xl font-extrabold text-center mb-16 text-[#C7952C]">FEATURES</h2>
+        <h2 className="text-4xl font-extrabold text-center mb-16 text-[#C7952C]">
+          {t("features.title")}
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
           {features.map((feature, index) => (
             <div key={index} className="flex items-start space-x-6">

@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const breakDescription = (description) => {
   const words = description.split(" ");
@@ -8,56 +9,56 @@ const breakDescription = (description) => {
   );
 };
 
-const features = [
-  {
-    name: "All-in-one Club Management",
-    description: "Full suite for clubs and agencies",
-    benefit: "Simplify club operations in one centralized platform.",
-  },
-  {
-    name: "AI-Powered Scouting and Recruitment",
-    description: "Advanced AI scouting tools",
-    benefit: "Discover talent faster with data-driven insights.",
-  },
-  {
-    name: "Real-Time Scheduling and Messaging",
-    description: "Integrated communications tools",
-    benefit: "Coordinate matches, training, and communication easily.",
-  },
-  {
-    name: "Marketplace and Sponsorship",
-    description: "Monetization tolls for clubs",
-    benefit: "Unlock new revenue streams through sponsorships.",
-  },
-  {
-    name: "Performance Analysis",
-    description: "In-depth player and team analytics",
-    benefit: "Track player and team performance with precision.",
-  },
-  {
-    name: "Integrated Communication Tools",
-    description: "Built-on messaging and chats",
-    benefit: "Keep players, coaches, and staff connected in real-time.",
-  },
-  {
-    name: "Revenue Generation Tools",
-    description: "Sponsorship and merch sales",
-    benefit: "Boost club income with branded merch and sponsors",
-  },
-  {
-    name: "Multi-Device Compatibility",
-    description: "Web, iOS and Android",
-    benefit: "Access anytime, anywhere, on any device.",
-  },
-  {
-    name: "Target Audience",
-    description: "Clubs, Scouts, Players, Coaches, Agents and Agencies",
-    benefit: "Tailored for the entire football ecosystem.",
-    icon: "soccer",
-  },
-];
-
 export const WhyChoose = () => {
+  const { t } = useTranslation();
+
+  const features = [
+    {
+      name: t("why_choose.one.name"),
+      description: t("why_choose.one.description"),
+      benefit: t("why_choose.one.benefit"),
+    },
+    {
+      name: t("why_choose.two.name"),
+      description: t("why_choose.two.description"),
+      benefit: t("why_choose.two.benefit"),
+    },
+    {
+      name: t("why_choose.three.name"),
+      description: t("why_choose.three.description"),
+      benefit: t("why_choose.three.benefit"),
+    },
+    {
+      name: t("why_choose.four.name"),
+      description: t("why_choose.four.description"),
+      benefit: t("why_choose.four.benefit"),
+    },
+    {
+      name: t("why_choose.five.name"),
+      description: t("why_choose.five.description"),
+      benefit: t("why_choose.five.benefit"),
+    },
+    {
+      name: t("why_choose.six.name"),
+      description: t("why_choose.six.description"),
+      benefit: t("why_choose.six.benefit"),
+    },
+    {
+      name: t("why_choose.seven.name"),
+      description: t("why_choose.seven.description"),
+      benefit: t("why_choose.seven.benefit"),
+    },
+    {
+      name: t("why_choose.eight.name"),
+      description: t("why_choose.eight.description"),
+      benefit: t("why_choose.eight.benefit"),
+    },
+    {
+      name: t("why_choose.nine.name"),
+      description: t("why_choose.nine.description"),
+      benefit: t("why_choose.nine.benefit"),
+    },
+  ];
   return (
     <section
       className="relative flex flex-col items-center justify-center py-16 gap-10"
@@ -73,7 +74,7 @@ export const WhyChoose = () => {
           style={{ backgroundImage: "url(/assets/icons/banner.png)" }}
         >
           <h2 className="text-white text-2xl md:text-3xl font-bold">
-            WHY CHOOSE 11 HYPE?
+            {t("why_choose.title")}
           </h2>
           <p className="text-white text-sm md:text-base mt-2 whitespace-pre-line">
             {breakDescription(
@@ -86,14 +87,14 @@ export const WhyChoose = () => {
         <div className="min-w-[600px]">
           <div className="grid grid-cols-3">
             <div className="p-4 font-bold text-black bg-[#C8940D] relative">
-              FEATURES
+              {t("why_choose.features")}
               <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-[#C8940D]"></div>
             </div>
             <div className="p-4 font-bold text-left text-black bg-[#F2F2F3] border-b border-[#D9D9D9]">
-              11 HYPE
+              {t("why_choose.11hype")}
             </div>
             <div className="p-4 font-bold text-left text-black bg-[#F2F2F3] border-b  border-l border-[#D9D9D9]">
-              BENEFITS
+              {t("why_choose.benefits")}
             </div>
           </div>
 

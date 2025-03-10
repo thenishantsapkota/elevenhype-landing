@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export const Navbar = () => {
+  const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [language, setLanguage] = useState(i18n.language);
 
   const toggleMenu = () => {
     setIsOpen((prev) => !prev);
@@ -23,13 +26,19 @@ export const Navbar = () => {
     }
   };
 
+  const handleLanguageChange = (e) => {
+    const newLanguage = e.target.value;
+    setLanguage(newLanguage);
+    i18n.changeLanguage(newLanguage);
+  };
+
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-sm">
       {/* Desktop Navbar */}
       <div className="container mx-auto flex justify-between items-center px-4 md:px-20 h-16">
         {/* Logo */}
-        <a href="#home" onClick={(e) => handleLinkClick(e, "#home")}>
-          <img src="/assets/icons/logo.png" alt="Logo" className="h-6" />
+        <a href="#home" >
+        <img src="/assets/icons/logo.png" alt="Logo" className="w-auto h-auto" />
         </a>
 
         {/* Hamburger Icon (Mobile Only) */}
@@ -56,55 +65,55 @@ export const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-4">
+        <div className={`hidden md:flex space-x-4 flex-nowrap items-center flex-grow ${isOpen ? 'flex' : 'hidden'}`}>
           <a
             href="#home"
             className="p-4 hover:text-[#C7952C] transition duration-300 whitespace-nowrap"
             onClick={(e) => handleLinkClick(e, "#home")}
           >
-            Home
+            {t("navbar.home")}
           </a>
           <a
             href="#features"
             className="p-4 hover:text-[#C7952C] transition duration-300 whitespace-nowrap"
             onClick={(e) => handleLinkClick(e, "#features")}
           >
-            Features
+            {t("navbar.features")}
           </a>
           <a
             href="#gallery"
             className="p-4 hover:text-[#C7952C] transition duration-300 whitespace-nowrap"
             onClick={(e) => handleLinkClick(e, "#gallery")}
           >
-            Gallery
+            {t("navbar.gallery")}
           </a>
           <a
             href="#core-values"
             className="p-4 hover:text-[#C7952C] transition duration-300 whitespace-nowrap"
             onClick={(e) => handleLinkClick(e, "#core-values")}
           >
-            Our Core Values
+            {t("navbar.core_values")}
           </a>
           <a
             href="#why-choose"
             className="p-4 hover:text-[#C7952C] transition duration-300 whitespace-nowrap"
             onClick={(e) => handleLinkClick(e, "#why-choose")}
           >
-            Why Choose 11Hype
+            {t("navbar.why_choose")}
           </a>
           <a
             href="#how-it-works"
             className="p-4 hover:text-[#C7952C] transition duration-300 whitespace-nowrap"
             onClick={(e) => handleLinkClick(e, "#how-it-works")}
           >
-            How it Works
+            {t("navbar.how_it_works")}
           </a>
           <a
             href="#contacts"
             className="p-4 hover:text-[#C7952C] transition duration-300 whitespace-nowrap"
             onClick={(e) => handleLinkClick(e, "#contacts")}
           >
-            Contacts
+            {t("navbar.contacts")}
           </a>
         </div>
 
@@ -126,11 +135,16 @@ export const Navbar = () => {
           >
             Login
           </a>
-          <div className="flex items-center space-x-2 border border-black rounded-full px-4">
+          <div className="flex items-center space-x-2 border border-black rounded-full px-6">
             <img src="/assets/icons/globe.png" alt="Globe" className="h-5" />
-            <select className="px-4 py-2 focus:outline-none cursor-pointer">
-              <option value="en">ENG</option>
-              <option value="es">ES</option>
+            <select
+              className="px-4 py-2 focus:outline-none cursor-pointer"
+              value={language}
+              onChange={handleLanguageChange}
+            >
+              <option value="en">English</option>
+              <option value="es">Spanish</option>
+              <option value="fr">French</option>
             </select>
           </div>
         </div>
@@ -145,49 +159,49 @@ export const Navbar = () => {
               className="block p-2 hover:bg-gray-100 rounded"
               onClick={(e) => handleLinkClick(e, "#home")}
             >
-              Home
+              {t("navbar.home")}
             </a>
             <a
               href="#features"
               className="block p-2 hover:bg-gray-100 rounded"
               onClick={(e) => handleLinkClick(e, "#features")}
             >
-              Features
+              {t("navbar.features")}
             </a>
             <a
               href="#gallery"
               className="block p-2 hover:bg-gray-100 rounded"
               onClick={(e) => handleLinkClick(e, "#gallery")}
             >
-              Gallery
+              {t("navbar.gallery")}
             </a>
             <a
               href="#core-values"
               className="block p-2 hover:bg-gray-100 rounded"
               onClick={(e) => handleLinkClick(e, "#core-values")}
             >
-              Our Core Values
+              {t("navbar.core_values")}
             </a>
             <a
               href="#why-choose"
               className="block p-2 hover:bg-gray-100 rounded"
               onClick={(e) => handleLinkClick(e, "#why-choose")}
             >
-              Why Choose 11Hype
+              {t("navbar.why_choose")}
             </a>
             <a
               href="#how-it-works"
               className="block p-2 hover:bg-gray-100 rounded"
               onClick={(e) => handleLinkClick(e, "#how-it-works")}
             >
-              How it Works
+              {t("navbar.how_it_works")}
             </a>
             <a
               href="#contacts"
               className="block p-2 hover:bg-gray-100 rounded"
               onClick={(e) => handleLinkClick(e, "#contacts")}
             >
-              Contacts
+              {t("navbar.contacts")}
             </a>
 
             {/* Mobile Actions */}
@@ -214,9 +228,14 @@ export const Navbar = () => {
                   alt="Globe"
                   className="h-5"
                 />
-                <select className="px-2 focus:outline-none cursor-pointer">
-                  <option value="en">ENG</option>
-                  <option value="es">ES</option>
+                <select
+                  className="px-2 focus:outline-none cursor-pointer"
+                  value={language}
+                  onChange={handleLanguageChange}
+                >
+                  <option value="en">English</option>
+                  <option value="es">Spanish</option>
+                  <option value="fr">French</option>
                 </select>
               </div>
             </div>
