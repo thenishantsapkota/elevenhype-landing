@@ -57,7 +57,7 @@ export const CoreValues = () => {
         <div className="flex flex-col space-y-18 items-center">
           {coreValues.map((value, index) => (
             <div key={index} className="flex flex-col items-center space-y-3">
-              <h3 className="text-2xl font-semibold text-black">
+              <h3 className="text-2xl font-semibold text-black text-center">
                 {value.title}
               </h3>
               <p className="text-gray-700 whitespace-pre-line text-center">{breakDescription(value.description)}</p>

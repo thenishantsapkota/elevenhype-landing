@@ -5,6 +5,7 @@ import { Features } from "./components/Features";
 import { CloserLook } from "./components/CloserLook";
 import { CoreValues } from "./components/CoreValues";
 import { WhyChoose } from "./components/WhyChoose";
+import { HowItWorks } from "./components/HowItWorks";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <CloserLook />
       <CoreValues />
       <WhyChoose />
+      <HowItWorks />
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect, useState } from "react";
 
 const breakDescription = (description) => {
   const words = description.split(" ");
@@ -59,21 +58,6 @@ const features = [
 ];
 
 export const WhyChoose = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const checkIsMobile = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    checkIsMobile();
-    window.addEventListener("resize", checkIsMobile);
-
-    return () => {
-      window.removeEventListener("resize", checkIsMobile);
-    };
-  }, []);
-
   return (
     <section
       className="relative flex flex-col items-center justify-center py-16 gap-10"
