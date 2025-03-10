@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 export const Contact = () => {
@@ -12,6 +13,20 @@ export const Contact = () => {
     message: "",
     acknowledgement: false,
   });
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkIsMobile();
+    window.addEventListener("resize", checkIsMobile);
+
+    return () => {
+      window.removeEventListener("resize", checkIsMobile);
+    };
+  }, []);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -32,7 +47,9 @@ export const Contact = () => {
         <h2 className="text-[#C7952C] text-2xl md:text-3xl font-bold text-center">
           {t("contact.title")}
         </h2>
-        <p className="text-sm md:text-base mt-2 whitespace-pre-line">{t("contact.subtitle")}</p>
+        <p className="text-sm md:text-base mt-2 whitespace-pre-line">
+          {t("contact.subtitle")}
+        </p>
       </div>
       <div className="flex flex-col md:flex-row">
         {/* Form Section */}
@@ -101,7 +118,9 @@ export const Contact = () => {
               </select>
             </div>
             <div className="mb-4">
-              <label className="block mb-2 font-bold">{t("contact.purpose")}</label>
+              <label className="block mb-2 font-bold">
+                {t("contact.purpose")}
+              </label>
               <div className="flex space-x-4">
                 <label>
                   <input
@@ -166,23 +185,25 @@ export const Contact = () => {
               </label>
             </div>
             <div className="flex items-center justify-center mt-10">
-            <button
-              type="submit"
-              className="bg-[#C7952C] text-white px-8 py-3 rounded-md cursor-pointer"
-            >
-              {t("contact.submit")}
-            </button>
+              <button
+                type="submit"
+                className="bg-[#C7952C] text-white px-8 py-3 rounded-md cursor-pointer"
+              >
+                {t("contact.submit")}
+              </button>
             </div>
           </form>
         </div>
         {/* Image Section */}
-        <div className="md:w-1/2 mt-8 md:mt-0 md:pl-8">
-          <img
-            src="/assets/images/contact.png"
-            alt="Contact"
-            className="w-full h-auto rounded"
-          />
-        </div>
+        {!isMobile && (
+          <div className="md:w-1/2 mt-8 md:mt-0 md:pl-8">
+            <img
+              src="/assets/images/contact.png"
+              alt="Contact"
+              className="w-full h-auto rounded"
+            />
+          </div>
+        )}
       </div>
     </section>
   );
