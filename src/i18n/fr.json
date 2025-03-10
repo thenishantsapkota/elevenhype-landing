@@ -1,175 +1,219 @@
 {
-    "navbar": {
-      "home": "Accueil",
-      "features": "Caractéristiques",
-      "gallery": "Galerie",
-      "core_values": "Nos Valeurs Fondamentales",
-      "why_choose": "Pourquoi Choisir 11Hype",
-      "how_it_works": "Comment Ça Marche",
-      "contacts": "Contacts",
-      "join_now": "Rejoindre Maintenant",
-      "login": "Se Connecter"
+  "navbar": {
+    "home": "Accueil",
+    "features": "Caractéristiques",
+    "gallery": "Galerie",
+    "core_values": "Nos Valeurs Fondamentales",
+    "why_choose": "Pourquoi Choisir 11Hype",
+    "how_it_works": "Comment Ça Marche",
+    "contacts": "Contacts",
+    "join_now": "Rejoindre Maintenant",
+    "login": "Se Connecter"
+  },
+  "hero": {
+    "hero_one": {
+      "title": "Transformer les Clubs de Football",
+      "subtitle": "Avec des Perspectives Alimentées par l'IA",
+      "description": "Élevez la performance de votre club avec des outils de pointe pour le scouting, la programmation et la gestion."
     },
-    "hero": {
-      "hero_one": {
-        "title": "Transformer les Clubs de Football",
-        "subtitle": "Avec des Perspectives Alimentées par l'IA",
-        "description": "Élevez la performance de votre club avec des outils de pointe pour le scouting, la programmation et la gestion."
-      },
-      "hero_two": {
-        "title": "Élevez votre Jeu, Donnez du Pouvoir à votre Club",
-        "subtitle": "Du Scouting au Sponsoring",
-        "description": "Du scouting au sponsoring, débloquez tout le potentiel de votre club de football grâce à des analyses de pointe et des outils de gestion."
-      },
-      "hero_three": {
-        "title": "L'Avenir du Football Commence Ici",
-        "subtitle": "Scouting Intelligent, Analyse de Performance et Communication en Temps Réel",
-        "description": "11 Hype aide les clubs et agences à découvrir les meilleurs talents, analyser la performance des équipes et rester connectés avec les joueurs, les fans et les sponsors. Dites adieu à la gestion obsolète et bienvenue à l'innovation."
-      },
-      "watch_demo_video": "Voir la Vidéo Démo"
+    "hero_two": {
+      "title": "Élevez votre Jeu, Donnez du Pouvoir à votre Club",
+      "subtitle": "Du Scouting au Sponsoring",
+      "description": "Du scouting au sponsoring, débloquez tout le potentiel de votre club de football grâce à des analyses de pointe et des outils de gestion."
     },
-    "features": {
-      "title": "CARACTÉRISTIQUES",
-      "one": {
-        "title": "Programmation et Messagerie en Temps Réel",
-        "description": "Coordonnez les pratiques, les matchs et les événements avec des outils de communication sans faille qui gardent votre club connecté."
-      },
-      "two": {
-        "title": "Scouting et Outils de Recrutement Alimentés par l'IA",
-        "description": "Identifiez les étoiles montantes et les talents de premier plan grâce à des analyses de performance avancées et des informations basées sur les données."
-      },
-      "three": {
-        "title": "Gestion de Club et d'Installations",
-        "description": "Gérez les équipes, les listes et les réservations d'installations avec des outils de programmation intuitifs conçus pour des clubs de toutes tailles."
-      },
-      "four": {
-        "title": "Marché et Centre de Sponsoring",
-        "description": "Monétisez votre club avec des produits de marque, des opportunités de sponsoring et un marché puissant."
-      },
-      "five": {
-        "title": "Analyse de Performance",
-        "description": "Plongez dans les statistiques des joueurs et des équipes avec un suivi et une analyse de performance faciles."
-      },
-      "six": {
-        "title": "Communication Intégrée",
-        "description": "Discutez, partagez des fichiers et collaborez en temps réel, tout dans une seule plateforme."
-      }
+    "hero_three": {
+      "title": "L'Avenir du Football Commence Ici",
+      "subtitle": "Scouting Intelligent, Analyse de Performance et Communication en Temps Réel",
+      "description": "11 Hype aide les clubs et agences à découvrir les meilleurs talents, analyser la performance des équipes et rester connectés avec les joueurs, les fans et les sponsors. Dites adieu à la gestion obsolète et bienvenue à l'innovation."
     },
-    "closer_look": {
-      "title": "UN REGARD PLUS PROCHE À 11HYPE EN ACTION",
-      "subtitle": "Explorez les puissants outils conçus pour rationaliser la gestion de votre club, le scouting et la monétisation.",
-      "one": {
-        "text": "Programmation complète pour les matchs, les pratiques et les événements. Gérez facilement les sessions d'entraînement récurrentes et les horaires de matchs."
-      },
-      "two": {
-        "text": "Suivez l'utilisation et la disponibilité des installations. Assignez et gérez l'accès aux installations pour les équipes, les entraîneurs et le personnel. Simplifiez les demandes de maintenance avec les problèmes intégrés."
-      },
-      "three": {
-        "text": "Communication équipe/joueur avec traductions intégrées. Messagerie instantanée de groupe avec confirmations de lecture pour une meilleure responsabilité. Partagez les horaires d'entraînement, les mises à jour de matchs et les annonces au même endroit."
-      },
-      "four": {
-        "text": "Outils de réseaux sociaux pour partager des moments forts et se connecter."
-      },
-      "five": {
-        "text": "Marché robuste pour l'entraînement, l'équipement et les services. Magasins de marché de marque pour les clubs à venir (bientôt)."
-      },
-      "six": {
-        "text": "Conçu avec soin comme un centre centralisé pour les passionnés de football, intégrant les meilleurs aspects de la technologie de pointe dans une plateforme cohérente."
-      }
+    "watch_demo_video": "Voir la Vidéo Démo"
+  },
+  "features": {
+    "title": "CARACTÉRISTIQUES",
+    "one": {
+      "title": "Programmation et Messagerie en Temps Réel",
+      "description": "Coordonnez les pratiques, les matchs et les événements avec des outils de communication sans faille qui gardent votre club connecté."
     },
-    "core_values": {
-      "title": "NOS VALEURS FONDAMENTALES",
-      "one": {
-        "title": "Autonomiser les Communautés de Football",
-        "description": "Nous sommes déterminés à aider les clubs, les entraîneurs, les recruteurs et les joueurs à prospérer avec des outils qui rationalisent la gestion et améliorent la collaboration."
-      },
-      "two": {
-        "title": "L'Innovation au Cœur de Tout",
-        "description": "Nous exploitons des technologies de pointe, y compris l'IA et les analyses, pour révolutionner la façon dont les clubs de football fonctionnent et se développent."
-      },
-      "three": {
-        "title": "Connexion et Croissance",
-        "description": "Notre plateforme surmonte les barrières, en connectant des clubs, des recruteurs, des joueurs et des agents à l'échelle mondiale pour renforcer la collaboration et faire croître la communauté du football."
-      },
-      "four": {
-        "title": "Transparence et Intégrité",
-        "description": "Nous valorisons l'honnêteté et la transparence, en garantissant que les clubs et les joueurs aient accès à des données claires, des opportunités équitables et des outils fiables."
-      },
-      "five": {
-        "title": "Soutenir la Croissance des Clubs",
-        "description": "Grâce à notre marché intégré et notre centre de sponsoring, nous aidons les clubs à débloquer de nouvelles sources de revenus et à croître de manière durable."
-      }
+    "two": {
+      "title": "Scouting et Outils de Recrutement Alimentés par l'IA",
+      "description": "Identifiez les étoiles montantes et les talents de premier plan grâce à des analyses de performance avancées et des informations basées sur les données."
     },
-    "why_choose": {
-      "title": "POURQUOI CHOISIR 11HYPE",
-      "description": "Voyez comment 11 Hype se compare aux outils traditionnels et aux concurrents : gestion tout-en-un, scouting avec IA et monétisation sur une seule plateforme.",
-      "features": "Caractéristiques",
-      "11hype": "11Hype",
-      "benefits": "Avantages",
-      "one": {
-        "name": "Gestion Tout-en-Un pour les Clubs",
-        "description": "Suite complète pour les clubs et agences",
-        "benefit": "Rationalisez les opérations du club sur une plateforme centralisée."
-      },
-      "two": {
-        "name": "Scouting et Recrutement Alimentés par l'IA",
-        "description": "Outils de scouting avancés",
-        "benefit": "Découvrez les talents plus rapidement avec des informations basées sur les données."
-      },
-      "three": {
-        "name": "Programmation et Messagerie en Temps Réel",
-        "description": "Outils de communication intégrés",
-        "benefit": "Coordonnez les matchs, les entraînements et la communication facilement."
-      },
-      "four": {
-        "name": "Marché et Sponsoring",
-        "description": "Outils de monétisation pour les clubs",
-        "benefit": "Débloquez de nouvelles sources de revenus via des sponsors."
-      },
-      "five": {
-        "name": "Analyse de Performance",
-        "description": "Analyse détaillée des joueurs et des équipes",
-        "benefit": "Suivez les performances des joueurs et des équipes avec précision."
-      },
-      "six": {
-        "name": "Outils de Communication Intégrés",
-        "description": "Messagerie et chats intégrés",
-        "benefit": "Gardez les joueurs, les entraîneurs et le personnel connectés en temps réel."
-      },
-      "seven": {
-        "name": "Outils de Génération de Revenus",
-        "description": "Sponsoring et vente de produits",
-        "benefit": "Augmentez les revenus des clubs grâce à des produits de marque et des sponsors."
-      },
-      "eight": {
-        "name": "Compatibilité Multi-Dispositif",
-        "description": "Web, iOS et Android",
-        "benefit": "Accédez à tout moment, de n'importe où, sur n'importe quel appareil."
-      },
-      "nine": {
-        "name": "Public Cible",
-        "description": "Clubs, Recruteurs, Joueurs, Entraîneurs, Agents et Agences",
-        "benefit": "Conçu pour l'ensemble de l'écosystème du football."
-      }
+    "three": {
+      "title": "Gestion de Club et d'Installations",
+      "description": "Gérez les équipes, les listes et les réservations d'installations avec des outils de programmation intuitifs conçus pour des clubs de toutes tailles."
     },
-    "how_it_works": {
-      "title": "COMMENT ÇA MARCHE",
-      "one": {
-        "title": "Inscrivez-vous et Configurez Votre Club",
-        "content": "Créez le profil de votre club et invitez les membres de votre équipe. Personnalisez les paramètres de votre club, des listes et des outils de communication."
-      },
-      "two": {
-        "title": "Gérez les Équipes et les Installations",
-        "content": "Programmez facilement des matchs, des entraînements et des événements. Suivez les réservations des installations pour garantir une gestion fluide."
-      },
-      "three": {
-        "title": "Scouting et Suivi des Joueurs avec IA",
-        "content": "Découvrez les meilleurs talents avec le suivi de performance alimenté par l'IA. Affichez en temps réel les statistiques des joueurs et les données de recrutement."
-      },
-      "four": {
-        "title": "Monétisez via le Marché",
-        "content": "Vendez des produits de marque et obtenez des sponsors. Augmentez les revenus du club avec des outils de monétisation intégrés."
-      }
+    "four": {
+      "title": "Marché et Centre de Sponsoring",
+      "description": "Monétisez votre club avec des produits de marque, des opportunités de sponsoring et un marché puissant."
+    },
+    "five": {
+      "title": "Analyse de Performance",
+      "description": "Plongez dans les statistiques des joueurs et des équipes avec un suivi et une analyse de performance faciles."
+    },
+    "six": {
+      "title": "Communication Intégrée",
+      "description": "Discutez, partagez des fichiers et collaborez en temps réel, tout dans une seule plateforme."
     }
+  },
+  "closer_look": {
+    "title": "UN REGARD PLUS PROCHE À 11HYPE EN ACTION",
+    "subtitle": "Explorez les puissants outils conçus pour rationaliser la gestion de votre club, le scouting et la monétisation.",
+    "one": {
+      "text": "Programmation complète pour les matchs, les pratiques et les événements. Gérez facilement les sessions d'entraînement récurrentes et les horaires de matchs."
+    },
+    "two": {
+      "text": "Suivez l'utilisation et la disponibilité des installations. Assignez et gérez l'accès aux installations pour les équipes, les entraîneurs et le personnel. Simplifiez les demandes de maintenance avec les problèmes intégrés."
+    },
+    "three": {
+      "text": "Communication équipe/joueur avec traductions intégrées. Messagerie instantanée de groupe avec confirmations de lecture pour une meilleure responsabilité. Partagez les horaires d'entraînement, les mises à jour de matchs et les annonces au même endroit."
+    },
+    "four": {
+      "text": "Outils de réseaux sociaux pour partager des moments forts et se connecter."
+    },
+    "five": {
+      "text": "Marché robuste pour l'entraînement, l'équipement et les services. Magasins de marché de marque pour les clubs à venir (bientôt)."
+    },
+    "six": {
+      "text": "Conçu avec soin comme un centre centralisé pour les passionnés de football, intégrant les meilleurs aspects de la technologie de pointe dans une plateforme cohérente."
+    }
+  },
+  "core_values": {
+    "title": "NOS VALEURS FONDAMENTALES",
+    "one": {
+      "title": "Autonomiser les Communautés de Football",
+      "description": "Nous sommes déterminés à aider les clubs, les entraîneurs, les recruteurs et les joueurs à prospérer avec des outils qui rationalisent la gestion et améliorent la collaboration."
+    },
+    "two": {
+      "title": "L'Innovation au Cœur de Tout",
+      "description": "Nous exploitons des technologies de pointe, y compris l'IA et les analyses, pour révolutionner la façon dont les clubs de football fonctionnent et se développent."
+    },
+    "three": {
+      "title": "Connexion et Croissance",
+      "description": "Notre plateforme surmonte les barrières, en connectant des clubs, des recruteurs, des joueurs et des agents à l'échelle mondiale pour renforcer la collaboration et faire croître la communauté du football."
+    },
+    "four": {
+      "title": "Transparence et Intégrité",
+      "description": "Nous valorisons l'honnêteté et la transparence, en garantissant que les clubs et les joueurs aient accès à des données claires, des opportunités équitables et des outils fiables."
+    },
+    "five": {
+      "title": "Soutenir la Croissance des Clubs",
+      "description": "Grâce à notre marché intégré et notre centre de sponsoring, nous aidons les clubs à débloquer de nouvelles sources de revenus et à croître de manière durable."
+    }
+  },
+  "why_choose": {
+    "title": "POURQUOI CHOISIR 11HYPE",
+    "description": "Voyez comment 11 Hype se compare aux outils traditionnels et aux concurrents : gestion tout-en-un, scouting avec IA et monétisation sur une seule plateforme.",
+    "features": "Caractéristiques",
+    "11hype": "11Hype",
+    "benefits": "Avantages",
+    "one": {
+      "name": "Gestion Tout-en-Un pour les Clubs",
+      "description": "Suite complète pour les clubs et agences",
+      "benefit": "Rationalisez les opérations du club sur une plateforme centralisée."
+    },
+    "two": {
+      "name": "Scouting et Recrutement Alimentés par l'IA",
+      "description": "Outils de scouting avancés",
+      "benefit": "Découvrez les talents plus rapidement avec des informations basées sur les données."
+    },
+    "three": {
+      "name": "Programmation et Messagerie en Temps Réel",
+      "description": "Outils de communication intégrés",
+      "benefit": "Coordonnez les matchs, les entraînements et la communication facilement."
+    },
+    "four": {
+      "name": "Marché et Sponsoring",
+      "description": "Outils de monétisation pour les clubs",
+      "benefit": "Débloquez de nouvelles sources de revenus via des sponsors."
+    },
+    "five": {
+      "name": "Analyse de Performance",
+      "description": "Analyse détaillée des joueurs et des équipes",
+      "benefit": "Suivez les performances des joueurs et des équipes avec précision."
+    },
+    "six": {
+      "name": "Outils de Communication Intégrés",
+      "description": "Messagerie et chats intégrés",
+      "benefit": "Gardez les joueurs, les entraîneurs et le personnel connectés en temps réel."
+    },
+    "seven": {
+      "name": "Outils de Génération de Revenus",
+      "description": "Sponsoring et vente de produits",
+      "benefit": "Augmentez les revenus des clubs grâce à des produits de marque et des sponsors."
+    },
+    "eight": {
+      "name": "Compatibilité Multi-Dispositif",
+      "description": "Web, iOS et Android",
+      "benefit": "Accédez à tout moment, de n'importe où, sur n'importe quel appareil."
+    },
+    "nine": {
+      "name": "Public Cible",
+      "description": "Clubs, Recruteurs, Joueurs, Entraîneurs, Agents et Agences",
+      "benefit": "Conçu pour l'ensemble de l'écosystème du football."
+    }
+  },
+  "how_it_works": {
+    "title": "COMMENT ÇA MARCHE",
+    "one": {
+      "title": "Inscrivez-vous et Configurez Votre Club",
+      "content": "Créez le profil de votre club et invitez les membres de votre équipe. Personnalisez les paramètres de votre club, des listes et des outils de communication."
+    },
+    "two": {
+      "title": "Gérez les Équipes et les Installations",
+      "content": "Programmez facilement des matchs, des entraînements et des événements. Suivez les réservations des installations pour garantir une gestion fluide."
+    },
+    "three": {
+      "title": "Scouting et Suivi des Joueurs avec IA",
+      "content": "Découvrez les meilleurs talents avec le suivi de performance alimenté par l'IA. Affichez en temps réel les statistiques des joueurs et les données de recrutement."
+    },
+    "four": {
+      "title": "Monétisez via le Marché",
+      "content": "Vendez des produits de marque et obtenez des sponsors. Augmentez les revenus du club avec des outils de monétisation intégrés."
+    }
+  },
+  "contact": {
+    "title": "COMMENCEZ AVEC NOUS",
+    "subtitle": "Que vous cherchiez à élever votre club, à investir dans l'avenir ou à vous associer avec nous - nous sommes là pour vous aider.",
+    "name": "Nom :",
+    "email": "Email :",
+    "organization": "Nom de l'organisation :",
+    "role": "Rôle :",
+    "roles": {
+      "player": "Joueur",
+      "parent": "Parent",
+      "coach": "Entraîneur",
+      "agent": "Agent",
+      "team": "Équipe",
+      "investor": "Investisseur"
+    },
+    "purpose": "Objet du contact :",
+    "purposes": {
+      "book_demo": "Réserver une démo",
+      "partner": "S'associer avec nous",
+      "investor_info": "Informations pour les investisseurs"
+    },
+    "placeholders": {
+      "name": "Entrez votre nom",
+      "email": "Entrez votre email",
+      "organization": "Entrez le nom de votre organisation",
+      "role": "Sélectionnez votre rôle",
+      "message": "Entrez votre message..."
+    },
+    "message": "Message :",
+    "acknowledgement": "En soumettant ce formulaire, vous acceptez que 11Hype stocke et traite vos informations personnelles conformément à notre politique de confidentialité",
+    "submit": "Soumettre"
+  },
+  "footer": {
+    "revolutionizing_football": "Révolutionner la Gestion du Football",
+    "quick_links": "Liens Rapides",
+    "legal": "Légal",
+    "privacy_policy": "Politique de Confidentialité",
+    "terms_of_service": "Conditions de Service",
+    "cookies_policy": "Politique de Cookies",
+    "data_deletion": "Suppression des Données et du Compte",
+    "investor_relations": "Relations avec les Investisseurs et Conditions Commerciales",
+    "marketing_disclaimer": "Avertissement sur le Marketing et la Communication",
+    "accessibility": "Déclaration d'Accessibilité",
+    "connect": "Connecter"
   }
-  
+}

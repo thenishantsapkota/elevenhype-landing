@@ -170,5 +170,50 @@
       "title": "Monetize through Marketplace",
       "content": "Sell branded club merchandise and secure sponsorships. Boost club revenue with built-in monetization tools."
     }
+  },
+  "contact": {
+    "title": "GET STARTED WITH US",
+    "subtitle": "Whether you’re looking to elevate your club, invest in the future, or partner with us — we’re here to help. ",
+    "name": "Name:",
+    "email": "Email:",
+    "organization": "Organization's Name:",
+    "role": "Role:",
+    "roles": {
+      "player": "Player",
+      "parent": "Parent",
+      "coach": "Coach",
+      "agent": "Agent",
+      "team": "Team",
+      "investor": "Investor"
+    },
+    "purpose": "Purpose of Contact:",
+    "purposes": {
+      "book_demo": "Book a demo",
+      "partner": "Partner with us",
+      "investor_info": "Investor Information"
+    },
+    "placeholders":{
+      "name": "Enter your name",
+      "email": "Enter your email",
+      "organization": "Enter your organization's name",
+      "role": "Select your role",
+      "message": "Enter your message..."
+    },
+    "message": "Message:",
+    "acknowledgement": "By submitting this form, you agree to allow 11Hype to store and process your personal information in accordance with our Privacy Policy",
+    "submit": "Submit"
+  },
+  "footer": {
+    "revolutionizing_football": "Revolutionizing Football Management",
+    "quick_links": "Quick Links",
+    "legal": "Legal",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "cookies_policy": "Cookies Policy",
+    "data_deletion": "Data and Account Deletion",
+    "investor_relations": "Investor Relations and Business Terms",
+    "marketing_disclaimer": "Marketing and Communication Disclaimer",
+    "accessibility": "Accessibility Statement",
+    "connect": "Connect"
   }
 }

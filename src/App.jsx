@@ -6,6 +6,8 @@ import { CloserLook } from "./components/CloserLook";
 import { CoreValues } from "./components/CoreValues";
 import { WhyChoose } from "./components/WhyChoose";
 import { HowItWorks } from "./components/HowItWorks";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <CoreValues />
       <WhyChoose />
       <HowItWorks />
+      <Contact />
+      <Footer />
     </div>
   );
 }
