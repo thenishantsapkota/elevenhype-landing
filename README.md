@@ -1,7 +1,5 @@
 # Elevenhype Landing
 
-
-
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
@@ -41,6 +39,23 @@ Use the built-in continuous integration in GitLab.
 - [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
 - [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
 - [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+
+## Translation Setup
+
+To add translation support, follow these steps:
+
+1. Install necessary packages:
+   ```sh
+   npm install i18next react-i18next
+   ```
+
+2. Create translation files in `src/locales` directory.
+
+3. Initialize i18next in `src/i18n.js`.
+
+4. Wrap your app with `I18nextProvider` in `src/main.jsx`.
+
+5. Use `useTranslation` hook in your components to translate text.
 
 ***
 
