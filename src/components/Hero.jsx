@@ -43,7 +43,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="relative flex items-center justify-start bg-gray-100" style={{ height: 'calc(100vh - 4rem)' }}>
+    <section className="relative flex items-center justify-start bg-gray-100" style={{ height: 'calc(100vh - 4rem)' }} id="home">
       <div className="absolute inset-0">
         {images.map((image, index) => (
           <img
