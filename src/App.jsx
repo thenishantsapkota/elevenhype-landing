@@ -1,28 +1,33 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
-import { Hero } from "./components/Hero";
-import { Features } from "./components/Features";
-import { CloserLook } from "./components/CloserLook";
-import { CoreValues } from "./components/CoreValues";
-import { WhyChoose } from "./components/WhyChoose";
-import { HowItWorks } from "./components/HowItWorks";
-import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import Home from "./pages/Home";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import CookiesPolicy from "./pages/CookiesPolicy";
+import DataDeletion from "./pages/DataDeletion";
+import InvestorRelations from "./pages/InvestorRelations";
+import MarketingDisclaimer from "./pages/MarketingDisclaimer";
+import Accessibility from "./pages/Accessibility";
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Hero />
-      <Features />
-      <CloserLook />
-      <CoreValues />
-      <WhyChoose />
-      <HowItWorks />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
+        <Route path="/cookies-policy" element={<CookiesPolicy />} />
+        <Route path="/data-deletion" element={<DataDeletion />} />
+        <Route path="/investor-relations" element={<InvestorRelations />} />
+        <Route path="/marketing-disclaimer" element={<MarketingDisclaimer />} />
+        <Route path="/accessibility" element={<Accessibility />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
-}
+};
 
 export default App;

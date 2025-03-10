@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import { Instagram, Linkedin, Facebook, Twitter } from "lucide-react";
 
 export const Footer = () => {
@@ -65,95 +66,74 @@ export const Footer = () => {
             <h3 className="font-bold mb-4">{t("footer.legal")}</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="/privacy-policy"
-                  className="text-sm hover:text-[#C7952C]"
-                >
+                <Link to="/privacy-policy" className="text-sm hover:text-[#C7952C]">
                   <img
                     src="/assets/icons/privacy.png"
                     alt="Privacy Policy"
                     className="inline h-4 mr-2"
                   />
                   {t("footer.privacy_policy")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/terms-of-service"
-                  className="text-sm hover:text-[#C7952C]"
-                >
+                <Link to="/terms-of-service" className="text-sm hover:text-[#C7952C]">
                   <img
                     src="/assets/icons/terms.png"
                     alt="Terms of Service"
                     className="inline h-4 mr-2"
                   />
                   {t("footer.terms_of_service")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/cookies-policy"
-                  className="text-sm hover:text-[#C7952C]"
-                >
+                <Link to="/cookies-policy" className="text-sm hover:text-[#C7952C]">
                   <img
                     src="/assets/icons/cookies.png"
                     alt="Cookies Policy"
                     className="inline h-4 mr-2"
                   />
                   {t("footer.cookies_policy")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/data-deletion"
-                  className="text-sm hover:text-[#C7952C]"
-                >
+                <Link to="/data-deletion" className="text-sm hover:text-[#C7952C]">
                   <img
                     src="/assets/icons/deletion.png"
                     alt="Data and Account Deletion"
                     className="inline h-4 mr-2"
                   />
                   {t("footer.data_deletion")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/investor-relations"
-                  className="text-sm hover:text-[#C7952C]"
-                >
+                <Link to="/investor-relations" className="text-sm hover:text-[#C7952C]">
                   <img
                     src="/assets/icons/investor.png"
                     alt="Investor Relations and Business Terms"
                     className="inline h-4 mr-2"
                   />
                   {t("footer.investor_relations")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/marketing-disclaimer"
-                  className="text-sm hover:text-[#C7952C]"
-                >
+                <Link to="/marketing-disclaimer" className="text-sm hover:text-[#C7952C]">
                   <img
                     src="/assets/icons/marketing.png"
                     alt="Marketing and Communication Disclaimer"
                     className="inline h-4 mr-2"
                   />
                   {t("footer.marketing_disclaimer")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/accessibility"
-                  className="text-sm hover:text-[#C7952C]"
-                >
+                <Link to="/accessibility" className="text-sm hover:text-[#C7952C]">
                   <img
                     src="/assets/icons/accessibility.png"
                     alt="Accessibility Statement"
                     className="inline h-4 mr-2"
                   />
                   {t("footer.accessibility")}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

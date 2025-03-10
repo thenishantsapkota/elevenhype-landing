@@ -67,6 +67,7 @@ export const Contact = () => {
                 onChange={handleChange}
                 className="w-full px-4 py-2 border rounded"
                 required
+                placeholder={t("contact.placeholders.name")}
               />
             </div>
             <div className="mb-4">
@@ -81,6 +82,7 @@ export const Contact = () => {
                 onChange={handleChange}
                 className="w-full px-4 py-2 border rounded"
                 required
+                placeholder={t("contact.placeholders.email")}
               />
             </div>
             <div className="mb-4">
@@ -95,6 +97,7 @@ export const Contact = () => {
                 onChange={handleChange}
                 className="w-full px-4 py-2 border rounded"
                 required
+                placeholder={t("contact.placeholders.organization")}
               />
             </div>
             <div className="mb-4">
@@ -109,6 +112,7 @@ export const Contact = () => {
                 className="w-full px-4 py-2 border rounded"
                 required
               >
+                <option value="">{t("contact.placeholders.role")}</option>
                 <option value="Player">{t("contact.roles.player")}</option>
                 <option value="Parent">{t("contact.roles.parent")}</option>
                 <option value="Coach">{t("contact.roles.coach")}</option>
@@ -169,6 +173,7 @@ export const Contact = () => {
                 className="w-full px-4 py-2 border rounded"
                 rows="4"
                 required
+                placeholder={t("contact.placeholders.message")}
               ></textarea>
             </div>
             <div className="mb-4">
