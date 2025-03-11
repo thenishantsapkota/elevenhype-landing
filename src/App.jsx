@@ -10,10 +10,12 @@ import DataDeletion from "./pages/DataDeletion";
 import InvestorRelations from "./pages/InvestorRelations";
 import MarketingDisclaimer from "./pages/MarketingDisclaimer";
 import Accessibility from "./pages/Accessibility";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes
       
