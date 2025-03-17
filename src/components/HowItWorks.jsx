@@ -78,7 +78,7 @@ export const HowItWorks = () => {
                       : "max-h-10 opacity-100"
                   }`}
                   style={{
-                    height: expandedCards.includes(index) ? "auto" : "2.5rem",
+                    height: expandedCards.includes(index) ? "12.5rem" : "3.5rem",
                   }}
                 >
                   <p

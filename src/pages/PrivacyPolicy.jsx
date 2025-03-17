@@ -160,19 +160,36 @@ const PrivacyPolicy = () => {
             Address: Rua Mohino de Vento, 125. EDF A, RC DTO, Vila Nova de Gaia,
             Porto, Portugal, 4405-780
           </p>
-          <p>
-            Thank you for visiting ElevenHype.com and trusting us with your
-            information.
-          </p>
-          <div className="text-center mt-8">
-            <a href="/" className="inline-block px-6 py-2 border-2 border-[#C7952C] text-[#C7952C] font-medium text-xs leading-tight uppercase rounded hover:bg-[#C7952C] hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
-              Back to ElevenHype.com
-            </a>
-          </div>
+          <strong>
+            <p>
+              Thank you for visiting ElevenHype.com and trusting us with your
+              information.
+            </p>
+          </strong>
+          <div className="text-left mt-8">
+          <a
+            href="/"
+            className="inline-flex items-center px-6 py-2 border-2 border-[#C7952C] text-[#C7952C] font-medium text-sm leading-tight rounded hover:bg-[#C7952C] hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+          >
+            <svg
+              className="w-4 h-4 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+            Back to ElevenHype.com
+          </a>
+        </div>
         </div>
       </div>
-
-      
     </div>
   );
 };

@@ -30,6 +30,10 @@ export const CoreValues = () => {
       title: t("core_values.four.title"),
       description: t("core_values.four.description"),
     },
+    {
+      title: t("core_values.five.title"),
+      description: t("core_values.five.description"),
+    }
   ];
   return (
     <section

@@ -155,7 +155,7 @@
   "how_it_works": {
     "title": "HOW IT WORKS",
     "one": {
-      "title": "Signup and Set up Club",
+      "title": "Sign up and Set up Club",
       "content": "Create your club profile and invite your team members. Customize your club settings, rosters, and communication tools."
     },
     "two": {
@@ -164,7 +164,7 @@
     },
     "three": {
       "title": "Scout & Track Players with AI",
-      "content": "Discover top talent using AI-driven performance tracking. View real-time player statistics and recruitment insights."
+      "content": "Discover top talent using AI-driven performance tracking.View real-time player statistics and recruitment insights."
     },
     "four": {
       "title": "Monetize through Marketplace",
