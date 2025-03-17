@@ -42,7 +42,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="container mx-auto px-4 py-8 md:px-20">
+    <section className="container mx-auto px-4 py-8 md:px-20" id="contact">
       <div className="text-center mb-8">
         <h2 className="text-[#C7952C] text-2xl md:text-3xl font-bold text-center">
           {t("contact.title")}

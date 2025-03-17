@@ -5,12 +5,12 @@ export const Features = () => {
   const { t } = useTranslation();
   const features = [
     {
-      icon: "/assets/icons/calendar.png",
+      icon: "/assets/icons/calendar.gif",
       title: t("features.one.title"),
       description: t("features.one.description"),
     },
     {
-      icon: "/assets/icons/ai.png",
+      icon: "/assets/icons/ai.gif",
       title: t("features.two.title"),
       description: t("features.two.description"),
     },
@@ -20,17 +20,17 @@ export const Features = () => {
       description: t("features.three.description"),
     },
     {
-      icon: "/assets/icons/coin.png",
+      icon: "/assets/icons/coin.gif",
       title: t("features.four.title"),
       description: t("features.four.description"),
     },
     {
-      icon: "/assets/icons/analytics.png",
+      icon: "/assets/icons/analytics.gif",
       title: t("features.five.title"),
       description: t("features.five.description"),
     },
     {
-      icon: "/assets/icons/messaging.png",
+      icon: "/assets/icons/messaging.gif",
       title: t("features.six.title"),
       description: t("features.six.description"),
     },
