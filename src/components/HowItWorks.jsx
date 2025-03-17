@@ -45,9 +45,13 @@ export const HowItWorks = () => {
   ];
 
   useEffect(() => {
-    const heights = contentRefs.current.map((ref) => ref?.scrollHeight || 0);
-    setMaxHeight(Math.max(56, ...heights)); 
-  }, [t]);
+    setTimeout(() => {
+      if (contentRefs.current.length) {
+        const heights = contentRefs.current.map((ref) => ref?.scrollHeight || 0);
+        setMaxHeight(Math.max(...heights)); 
+      }
+    }, 100);
+  }, [t, expandedCards]);
 
   return (
     <section
