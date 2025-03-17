@@ -4,7 +4,7 @@
     "features": "Caractéristiques",
     "gallery": "Galerie",
     "core_values": "Nos Valeurs Fondamentales",
-    "why_choose": "Pourquoi Choisir 11Hype",
+    "why_choose": "Pourquoi Choisir 11 Hype",
     "how_it_works": "Comment Ça Marche",
     "contacts": "Contacts",
     "join_now": "Rejoindre Maintenant",
@@ -56,7 +56,7 @@
     }
   },
   "closer_look": {
-    "title": "UN REGARD PLUS PROCHE À 11HYPE EN ACTION",
+    "title": "UN REGARD PLUS PROCHE À 11 HYPE EN ACTION",
     "subtitle": "Explorez les puissants outils conçus pour rationaliser la gestion de votre club, le scouting et la monétisation.",
     "one": {
       "text": "Programmation complète pour les matchs, les pratiques et les événements. Gérez facilement les sessions d'entraînement récurrentes et les horaires de matchs."
@@ -101,10 +101,10 @@
     }
   },
   "why_choose": {
-    "title": "POURQUOI CHOISIR 11HYPE",
+    "title": "POURQUOI CHOISIR 11 HYPE",
     "description": "Voyez comment 11 Hype se compare aux outils traditionnels et aux concurrents : gestion tout-en-un, scouting avec IA et monétisation sur une seule plateforme.",
     "features": "Caractéristiques",
-    "11hype": "11Hype",
+    "11hype": "11 Hype",
     "benefits": "Avantages",
     "one": {
       "name": "Gestion Tout-en-Un pour les Clubs",
@@ -200,7 +200,7 @@
       "message": "Entrez votre message..."
     },
     "message": "Message :",
-    "acknowledgement": "En soumettant ce formulaire, vous acceptez que 11Hype stocke et traite vos informations personnelles conformément à notre politique de confidentialité",
+    "acknowledgement": "En soumettant ce formulaire, vous acceptez que 11 Hype stocke et traite vos informations personnelles conformément à notre politique de confidentialité",
     "submit": "Soumettre"
   },
   "footer": {

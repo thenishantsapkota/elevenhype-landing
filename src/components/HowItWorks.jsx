@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 export const HowItWorks = () => {
   const { t } = useTranslation();
   const [expandedCards, setExpandedCards] = useState([]);
   const [isMobile, setIsMobile] = useState(false);
+  const contentRefs = useRef([]);
+  const [maxHeight, setMaxHeight] = useState(0);
 
   useEffect(() => {
     const checkIsMobile = () => {
@@ -42,6 +44,11 @@ export const HowItWorks = () => {
     },
   ];
 
+  useEffect(() => {
+    const heights = contentRefs.current.map((ref) => ref?.scrollHeight || 0);
+    setMaxHeight(Math.max(56, ...heights)); 
+  }, [t]);
+
   return (
     <section
       className="relative flex items-center justify-center h-auto bg-white"
@@ -72,21 +79,19 @@ export const HowItWorks = () => {
               </h3>
               {!isMobile && (
                 <div
-                  className={`absolute top-full left-0 w-full bg-white shadow-lg p-4 transition-all duration-300 overflow-hidden rounded-md ${
-                    expandedCards.includes(index)
-                      ? "max-h-96 opacity-100"
-                      : "max-h-10 opacity-100"
-                  }`}
+                  ref={(el) => (contentRefs.current[index] = el)}
+                  className={`absolute top-full left-0 w-full bg-white shadow-lg p-4 transition-all duration-300 overflow-hidden rounded-md`}
                   style={{
-                    height: expandedCards.includes(index) ? "12.5rem" : "3.5rem",
+                    height: expandedCards.includes(index) ? `${maxHeight}px` : "3.5rem",
+                    maxHeight: expandedCards.includes(index) ? `${maxHeight}px` : "3.5rem",
+                    opacity: expandedCards.includes(index) ? 1 : 1,
                   }}
                 >
                   <p
-                    className={`text-gray-700 transition-all duration-300 ${
-                      expandedCards.includes(index)
-                        ? "opacity-100"
-                        : "opacity-0"
-                    }`}
+                    className="text-gray-700 transition-all duration-300"
+                    style={{
+                      opacity: expandedCards.includes(index) ? 1 : 0,
+                    }}
                   >
                     {card.content}
                   </p>

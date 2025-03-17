@@ -4,7 +4,7 @@
     "features": "Características",
     "gallery": "Galería",
     "core_values": "Nuestros Valores Fundamentales",
-    "why_choose": "Por qué Elegir 11Hype",
+    "why_choose": "Por qué Elegir 11 Hype",
     "how_it_works": "Cómo Funciona",
     "contacts": "Contactos",
     "join_now": "Únete Ahora",
@@ -56,7 +56,7 @@
     }
   },
   "closer_look": {
-    "title": "UNA MIRADA MÁS CERCANA A 11HYPE EN ACCIÓN",
+    "title": "UNA MIRADA MÁS CERCANA A 11 HYPE EN ACCIÓN",
     "subtitle": "Explora las poderosas herramientas diseñadas para optimizar la gestión de tu club, scouting y monetización.",
     "one": {
       "text": "Programación integral para partidos, prácticas y eventos. Gestiona fácilmente sesiones recurrentes de prácticas y horarios de partidos."
@@ -101,10 +101,10 @@
     }
   },
   "why_choose": {
-    "title": "POR QUÉ ELEGIR 11HYPE",
+    "title": "POR QUÉ ELEGIR 11 HYPE",
     "description": "Mira cómo 11 Hype se compara con herramientas tradicionales y competidores: gestión todo-en-uno, scouting con IA y monetización en una sola plataforma.",
     "features": "Características",
-    "11hype": "11Hype",
+    "11hype": "11 Hype",
     "benefits": "Beneficios",
     "one": {
       "name": "Gestión Todo-en-Uno del Club",
@@ -200,7 +200,7 @@
       "message": "Ingrese su mensaje..."
     },
     "message": "Mensaje:",
-    "acknowledgement": "Al enviar este formulario, acepta permitir que 11Hype almacene y procese su información personal de acuerdo con nuestra Política de Privacidad",
+    "acknowledgement": "Al enviar este formulario, acepta permitir que 11 Hype almacene y procese su información personal de acuerdo con nuestra Política de Privacidad",
     "submit": "Enviar"
   },
   "footer": {
