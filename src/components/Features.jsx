@@ -54,7 +54,7 @@ export const Features = () => {
               <img
                 src={feature.icon}
                 alt={feature.title}
-                className="h-18 w-18 object-contain"
+                className={`${feature.icon.includes("facility") ? `w-20` : `w-18`}`}
               />
               <div>
                 <h3 className="text-2xl font-semibold mb-2">{feature.title}</h3>
