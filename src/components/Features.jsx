@@ -15,7 +15,7 @@ export const Features = () => {
       description: t("features.two.description"),
     },
     {
-      icon: "/assets/icons/facility.png",
+      icon: "/assets/icons/facility.gif",
       title: t("features.three.title"),
       description: t("features.three.description"),
     },
@@ -54,7 +54,7 @@ export const Features = () => {
               <img
                 src={feature.icon}
                 alt={feature.title}
-                className="h-16 w-16 object-contain"
+                className="h-18 w-18 object-contain"
               />
               <div>
                 <h3 className="text-2xl font-semibold mb-2">{feature.title}</h3>

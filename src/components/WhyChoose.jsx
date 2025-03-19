@@ -101,48 +101,31 @@ export const WhyChoose = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className={`grid grid-cols-3 ${
-                index === features.length - 1 ? "" : "border-b border-[#D9D9D9]"
-              }`}
+              className={`grid grid-cols-3 border-t border-gray-400`}
             >
               <div
-                className={`p-4 font-medium text-white relative ${
+                className={`p-4 font-medium text-white ${
                   index % 2 === 0 ? "bg-[#DBB34A]" : "bg-[#C8940D]"
                 }`}
               >
                 {feature.name}
               </div>
-
               <div
-                className={`p-4 flex items-center justify-start relative ${
+                className={`p-4 flex items-center ${
                   index % 2 === 0 ? "bg-[#F2F2F3]" : "bg-[#D9D9D9]"
                 }`}
               >
-                {feature.icon === "soccer" ? (
-                  <div className="flex items-center gap-2">
-                    <img
-                      src="/assets/icons/soccer.svg"
-                      alt="Soccer"
-                      className="w-5 h-5"
-                    />
-                    <span className="text-sm">{feature.description}</span>
-                  </div>
-                ) : (
-                  <div className="flex items-center gap-2">
-                    <img
-                      src="/assets/icons/check.svg"
-                      alt="Check"
-                      className="w-5 h-5"
-                    />
-                    <span className="text-sm">{feature.description}</span>
-                  </div>
-                )}
+                <img
+                  src="/assets/icons/check.svg"
+                  alt="Check"
+                  className="w-5 h-5 mr-2"
+                />
+                <span className="text-sm">{feature.description}</span>
               </div>
-
               <div
-                className={`p-4 text-sm text-left ${
+                className={`p-4 text-sm ${
                   index % 2 === 0 ? "bg-[#F2F2F3]" : "bg-[#D9D9D9]"
-                } border-l border-[#737373]`}
+                } border-l border-gray-400`}
               >
                 {feature.benefit}
               </div>

@@ -15,7 +15,7 @@ export const CloserLook = () => {
 
   const images = [
     {
-      src: "/assets/images/closer_look_1.png",
+      src: "/assets/images/closer_look_1.jpg",
       text: t("closer_look.one.text"),
     },
     {
